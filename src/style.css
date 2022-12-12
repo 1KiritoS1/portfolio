@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+figure:hover img {
+	top: -120%;
+}
+
+.decrease-top:hover img {
+	top: -50%;
+}
+
+figure:hover figcaption {
+	font-size: 18px;
+	height: 32px;
+	opacity: 1;
+}
+
+figcaption {
+	transition: opacity .4s linear,
+		font-size .2s linear,
+		height .2s linear;
+}
