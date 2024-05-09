@@ -23,3 +23,29 @@ figcaption {
 		font-size .2s linear,
 		height .2s linear;
 }
+
+.hover-icon {
+	position: relative;
+	transition: all .2s ease-out;
+}
+
+.hover-icon:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: inherit;
+	border-radius: inherit;
+	transform: scale(.9);
+	z-index: -1;
+}
+
+.hover-icon:hover {
+	box-shadow: 0 0 5px #fff;
+}
+
+.hover-icon:hover:before {
+	box-shadow: 0 0 30px #fff;
+}

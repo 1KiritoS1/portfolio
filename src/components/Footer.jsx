@@ -7,7 +7,7 @@ function Footer() {
 			key={social.id} 
 			href={social.link} 
 			title={social.title}
-			className="p-2 bg-stone-400 rounded-full duration-200 ease-out hover:bg-[#8d8884]"
+			className="hover-icon p-2 rounded-full dark:bg-white dark:hover:before:transform-gpu"
 		>
 			<img 
 				src={social.icon} 
@@ -20,7 +20,7 @@ function Footer() {
 	return (
 		<footer className="w-full pt-16 sm:pt-24 pb-5">
 			<div className="flex flex-col justify-center items-center">
-				<nav className="flex flex-row gap-3 mb-3">
+				<nav className="flex flex-row gap-3 mb-4">
 					{ socialElements }
 				</nav>
 				<p className="font-inter font-normal text-sm text-stone-900 dark:text-white opacity-50">

@@ -1,17 +1,23 @@
-import { instagram, telegram, upwork } from '../img/social';
+import { gmail, telegram, linkedin, upwork } from '../img/social';
 
 export default [
 	{
-		id: 'instagram',
-		link: 'https://www.instagram.com/_1code_monkey1_/',
-		icon: instagram,
-		title: 'Instagram'
+		id: 'gmail',
+		link: 'mailto:ssivachenkoromann@gmail.com',
+		icon: gmail,
+		title: 'Gmail'
 	},
 	{
 		id: 'telegram',
 		link: 'https://t.me/r_jiyuua',
 		icon: telegram,
 		title: 'Telegram'
+	},
+	{
+		id: 'linkedin',
+		link: 'https://www.linkedin.com/in/roman-sivachenko/',
+		icon: linkedin,
+		title: 'LinkedIn'
 	},
 	{
 		id: 'upwork',
