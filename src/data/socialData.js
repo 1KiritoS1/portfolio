@@ -9,7 +9,7 @@ export default [
 	},
 	{
 		id: 'telegram',
-		link: 'https://t.me/r_jiyuua',
+		link: 'https://t.me/roman_dev1',
 		icon: telegram,
 		title: 'Telegram'
 	},
