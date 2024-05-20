@@ -11,7 +11,7 @@ function Intro() {
 					Front-End Developer
 				</p>	
 				<p className="font-inter font-semibold text-sm">
-					I'm a front-end developer who's main passion is creating responsive & pixel-perfect websites and specialize in their animation. Also, I have experience in Figma and Photoshop.
+					Specializing in creating high-quality, responsive websites and applications. I am dedicated to meeting project challenges and continuously learning.
 				</p>
 			</div>
 		</section>

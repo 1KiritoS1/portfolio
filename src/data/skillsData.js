@@ -3,7 +3,7 @@ export const skillset = [
 		id: 'skillset',
 		title: 'Skillset',
 		list: [
-			'HTML5, CSS3, SCSS',
+			'HTML5, CSS3 / SCSS',
 			'JavaScript, TypeScript',
 			'NodeJS, Express, PostgreSQL', 
 			'React, Redux, Vite',
