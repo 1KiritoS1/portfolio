@@ -42,7 +42,7 @@ function Portfolio() {
 			</div>
 			<a 
 				target="_blank" 
-				href="https://github.com/1KiritoS1?tab=repositories" 
+				href="https://github.com/Devf1s?tab=repositories" 
 				className="bg-white dark:bg-stone-900 hover:bg-stone-900 dark:hover:bg-white text-black dark:text-white hover:text-white dark:hover:text-stone-900 border-stone-900 dark:border-white border-2 rounded-md  font-inter font-medium text-lg text-center duration-200 ease-out py-1 px-4 mt-6"
 			>
 				View All
